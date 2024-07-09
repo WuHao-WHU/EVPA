@@ -63,10 +63,25 @@ You can test on the open-source TLS dataset: [WHU-TLS](http://3s.whu.edu.cn/ybs/
 
 The framework supports `*.ply`, `*.pcd` formats of point cloud data. You may need to transform other formats to the supported formats.
 
+## Paper
+If you find out our code useful in your research, please cite
+```
+@InProceedings{10.1007/978-981-99-8432-9_19,
+author="Wu, Hao and Yan, Li and Xie, Hong and Wei, Pengcheng and Dai, Jicheng and Gao, Zhao and Zhang, Rongling",
+title="A Voxel-Based Multiview Point Cloud Refinement Method via Factor Graph Optimization",
+booktitle="Pattern Recognition and Computer Vision",
+year="2024",
+publisher="Springer Nature Singapore",
+address="Singapore",
+pages="234--245",
+}
+```
+
 ## Contributor
 [Hao Wu (吴豪)](https://github.com/WuHao-WHU)
 
 ## Contact 
 Email: haowu2021@whu.edu.cn
+
 
 Do not hesitate to contact the authors if you have any question or find any bugs.
