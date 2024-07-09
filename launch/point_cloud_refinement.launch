@@ -1,0 +1,20 @@
+<launch>
+    <param name="trajectory_path" type="string" value="/home/sgg-whu/TLS/TLS_data/office/ply/alidarPose.csv" />
+    <param name="pcd_path" type="string" value="/home/sgg-whu/TLS/TLS_data/office/ply" />
+    <param name="save_path" type="string" value="/home/sgg-whu/TLS/EVPA/src/office" />
+    <param name="voxel_size" type="double" value= "1.0" />
+    <param name="downsample_size" type="double" value= "0.05" />
+    <param name="voxel_decrease_step" type="double" value= "0.1" />
+    <param name="iteration" type="int" value= "3" />
+    <param name="reliable_region" type="int" value= "3" />
+    <param name="minmum_voxel_size" type="double" value= "0.5" />
+    <!--reliable region: 连续的n个站参与配准 -->
+
+    <node pkg="evpa" type="EVPA_refinement" name="EVPA_refinement" output="screen"/>
+
+    <!-- <arg name="rviz" default="1" />
+        <group if="$(arg rviz)">
+            <node name="rvizvisualisation" pkg="rviz" type="rviz" output="log" args="-d $(find evpa)/rviz/vis.rviz" />
+        </group> -->
+
+</launch>
