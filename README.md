@@ -21,8 +21,7 @@ Our proposed framework incorporates two innovative designs, namely the **multi-s
 
 ![overview](./fig/overview2.jpg)
 
-## Code
-  The code is currently being refactoring, and will be released as soon as possible.
+
 ## Demo
 
 ![fig1](./fig/exp_1.jpg)
